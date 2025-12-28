@@ -39,7 +39,6 @@ const viral = {
     
     workingOn: [
         "🤖 Agentic AI Workflows",
-        "🎬 AI Video Automation (XccelerAIte)",
         "⚡ Enterprise Automation Platforms",
         "🧠 Multi-Agent LLM Systems"
     ],
@@ -186,43 +185,6 @@ Creating enterprise-grade automation with dynamic workflows, intelligent task or
 ---
 
 ## 🔥 Featured Projects
-
-<div align="center">
-
-### 🎬 XccelerAIte - AI Video Automation Platform
-[![Live Project](https://img.shields.io/badge/🔗_Live_Project-xcceleraite.ai-667eea?style=for-the-badge)](https://gardxgroup.com/xcceleraite/)
-
-</div>
-
-> **Transformative AI video platform for the automotive sector** - Enabling dealerships and OEMs across the UK to create, personalize, and deploy high-impact marketing videos automatically with maximum scalability.
-
-<table>
-<tr>
-<td>
-
-**🚀 Key Features:**
-- AI-powered video generation engine
-- Dynamic imaging & personalization
-- Product accelerator for multi-site deployment
-- CRM integration APIs
-- Real-time analytics dashboard
-
-</td>
-<td>
-
-**🛠️ Tech Stack:**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
 
 <div align="center">
 
