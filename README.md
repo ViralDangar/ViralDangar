@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=100&lines=2.6%2B+Years+of+Building+Production-Grade+Systems;Specializing+in+AI%2FML%2C+Python+%26+MERN+Stack" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=100&lines= 2.6%2B+Years+of+Building+Production-Grade+Systems;Specializing+in+AI%2FML%2C+Python+%26+MERN+Stack" alt="Typing SVG" />
 </p>
 
 <p align="center">
