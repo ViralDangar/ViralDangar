@@ -12,9 +12,9 @@
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=100&lines= 2.6%2B+Years+of+Building+Production-Grade+Systems;Specializing+in+AI%2FML%2C+Python+%26+MERN+Stack" alt="Typing SVG" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=viral-dangar&label=Profile%20Views&color=667eea&style=flat-square" alt="Profile Views" />
