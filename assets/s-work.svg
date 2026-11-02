@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 168" width="1200" height="168" role="img">
+<defs><filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+</filter><style>
+text { font-family: 'Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+.idx { font-size: 15px; letter-spacing: 4.5px; fill: #666666; text-transform: uppercase; }
+/* No entrance animations: GitHub's mobile app, link previews and some
+   renderers show only the first frame of an SVG, so every element must be
+   fully drawn at t=0. The only motion is the availability dot, which is
+   visible at every point of its cycle. */
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+.rise{--d:80px}</style></defs>
+<rect width="1200" height="168" fill="#F6F5F4"/>
+
+<line x1="56" y1="34" x2="1144" y2="34" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="74" font-size="15" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="4.5" class="fade" >03 — PROJECTS</text>
+<clipPath id="c"><rect x="0" y="82" width="1200" height="76"/></clipPath>
+<g clip-path="url(#c)"><text x="53" y="146" font-size="66" font-weight="900" letter-spacing="-1.5" class="rise" style="animation-delay:.1s"><tspan fill="#141414">SELECTED WORK</tspan></text></g>
+
+<rect width="1200" height="168" filter="url(#grain)" opacity="0.06"/>
+</svg>

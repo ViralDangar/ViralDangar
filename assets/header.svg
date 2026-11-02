@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img">
+<defs><filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+</filter><style>
+text { font-family: 'Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+.idx { font-size: 15px; letter-spacing: 4.5px; fill: #666666; text-transform: uppercase; }
+/* No entrance animations: GitHub's mobile app, link previews and some
+   renderers show only the first frame of an SVG, so every element must be
+   fully drawn at t=0. The only motion is the availability dot, which is
+   visible at every point of its cycle. */
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+.rise{--d:200px}</style></defs>
+<rect width="1200" height="620" fill="#F6F5F4"/>
+
+<circle cx="62" cy="62" r="6" fill="#FF4D00" class="pulse"/>
+<text x="80" y="67" font-size="15" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="4.5" class="fade" >OPEN TO BACKEND &amp; AI ROLES</text>
+<text x="1144" y="67" font-size="15" font-weight="400" fill="#666666" text-anchor="end" letter-spacing="4.5" class="fade" >MUMBAI, INDIA — OPEN TO REMOTE</text>
+<line x1="56" y1="96" x2="1144" y2="96" stroke="rgba(20,20,20,0.15)"/>
+
+<clipPath id="c1"><rect x="0" y="104" width="1200" height="170"/></clipPath>
+<clipPath id="c2"><rect x="0" y="274" width="1200" height="176"/></clipPath>
+<g clip-path="url(#c1)">
+  <text x="50" y="262" font-size="196" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-6" class="rise" textLength="575" lengthAdjust="spacing" style="animation-delay:.15s">VIRAL</text>
+</g>
+<g clip-path="url(#c2)">
+  <text x="1148" y="436" font-size="196" font-weight="900" fill="none" text-anchor="end" letter-spacing="-6" textLength="840" lengthAdjust="spacing" stroke="#141414" stroke-width="3">DANGAR</text>
+</g>
+
+<line x1="56" y1="482" x2="1144" y2="482" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="522" font-size="15" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="4.5" class="fade" style="animation-delay:.5s">PYTHON &amp; AI ENGINEER — BACKEND AUTOMATION</text>
+<text x="1144" y="522" font-size="15" font-weight="600" fill="#141414" text-anchor="end" letter-spacing="4.5" class="fade" style="animation-delay:.5s">NOW @ PRICELINE · BOOKING HOLDINGS</text>
+<text x="56" y="570" font-size="30" font-weight="500" fill="#141414" text-anchor="start" class="fade" style="animation-delay:.65s">I turn expensive manual back-office work into software that runs itself.</text>
+<rect x="1130" y="552" width="14" height="14" fill="#FF4D00" class="fade" style="animation-delay:.8s"/>
+
+<rect width="1200" height="620" filter="url(#grain)" opacity="0.06"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img">
+<defs><filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+</filter><style>
+text { font-family: 'Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+.idx { font-size: 15px; letter-spacing: 4.5px; fill: #666666; text-transform: uppercase; }
+/* No entrance animations: GitHub's mobile app, link previews and some
+   renderers show only the first frame of an SVG, so every element must be
+   fully drawn at t=0. The only motion is the availability dot, which is
+   visible at every point of its cycle. */
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style></defs>
+<rect width="1200" height="700" fill="#F6F5F4"/>
+
+<rect x="56" y="28" width="1088" height="644" fill="none" stroke="#047857" stroke-width="1.5"/>
+<g transform="translate(36 0)">
+<text x="56" y="86" font-size="14" font-weight="600" fill="#047857" text-anchor="start" letter-spacing="4.2" >FEATURED — PERSONAL PROJECT</text>
+<text x="1072" y="86" font-size="14" font-weight="400" fill="#666666" text-anchor="end" letter-spacing="4.2" >LIVE · WEB + ANDROID</text>
+<text x="53" y="168" font-size="78" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-2" >GST BILLING</text>
+<text x="56" y="222" font-size="21" font-weight="400" fill="#666666" text-anchor="start" >GST-correct invoicing for Indian B2B businesses. Place of supply decides the tax —</text>
+<text x="56" y="252" font-size="21" font-weight="400" fill="#666666" text-anchor="start" >the same ₹576 line at 18% splits two ways, and both must total to the paisa:</text>
+<g transform="scale(0.94) translate(4 22)"><line x1="56" y1="356" x2="1144" y2="356" stroke="rgba(20,20,20,0.15)"/><text x="56" y="344" font-size="12" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.4" >PLACE OF SUPPLY</text><text x="456" y="344" font-size="12" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.4" >CGST 9%</text><text x="616" y="344" font-size="12" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.4" >SGST 9%</text><text x="776" y="344" font-size="12" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.4" >IGST 18%</text><text x="956" y="344" font-size="12" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.4" >TOTAL</text><text x="56" y="398" font-size="20" font-weight="400" fill="#141414" text-anchor="start" >Maharashtra — same state</text><text x="456" y="398" font-size="20" font-weight="400" fill="#141414" text-anchor="start" >₹51.84</text><text x="616" y="398" font-size="20" font-weight="400" fill="#141414" text-anchor="start" >₹51.84</text><text x="776" y="398" font-size="20" font-weight="400" fill="#666666" text-anchor="start" >—</text><text x="956" y="398" font-size="20" font-weight="700" fill="#141414" text-anchor="start" >₹679.68</text><line x1="56" y1="418" x2="1144" y2="418" stroke="rgba(20,20,20,0.15)"/><text x="56" y="448" font-size="20" font-weight="400" fill="#141414" text-anchor="start" >Karnataka — inter-state</text><text x="456" y="448" font-size="20" font-weight="400" fill="#666666" text-anchor="start" >—</text><text x="616" y="448" font-size="20" font-weight="400" fill="#666666" text-anchor="start" >—</text><text x="776" y="448" font-size="20" font-weight="400" fill="#141414" text-anchor="start" >₹103.68</text><text x="956" y="448" font-size="20" font-weight="700" fill="#141414" text-anchor="start" >₹679.68</text><line x1="56" y1="468" x2="1144" y2="468" stroke="rgba(20,20,20,0.15)"/></g>
+<rect x="56" y="513" width="9" height="9" fill="#047857"/><text x="82" y="524" font-size="19" font-weight="400" fill="#141414" text-anchor="start" >All GST maths in one standalone engine — exact Decimal money, one source of truth</text><rect x="56" y="553" width="9" height="9" fill="#047857"/><text x="82" y="564" font-size="19" font-weight="400" fill="#141414" text-anchor="start" >Gapless invoice numbering under concurrency, with financial-year rollover</text><rect x="56" y="593" width="9" height="9" fill="#047857"/><text x="82" y="604" font-size="19" font-weight="400" fill="#141414" text-anchor="start" >AI suggests and drafts — it never writes to the database or calculates tax</text>
+<rect x="56" y="628" width="100.24000000000001" height="34" fill="none" stroke="rgba(20,20,20,0.15)"/><text x="106.12" y="650" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="69" lengthAdjust="spacing" >FASTAPI</text><rect x="166.24" y="628" width="131.2" height="34" fill="none" stroke="rgba(20,20,20,0.15)"/><text x="231.84" y="650" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="100" lengthAdjust="spacing" >POSTGRESQL</text><rect x="307.44" y="628" width="79.6" height="34" fill="none" stroke="rgba(20,20,20,0.15)"/><text x="347.24" y="650" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="49" lengthAdjust="spacing" >REACT</text><rect x="397.03999999999996" y="628" width="131.2" height="34" fill="none" stroke="rgba(20,20,20,0.15)"/><text x="462.64" y="650" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="100" lengthAdjust="spacing" >TYPESCRIPT</text><rect x="538.24" y="628" width="151.84" height="34" fill="none" stroke="rgba(20,20,20,0.15)"/><text x="614.16" y="650" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="121" lengthAdjust="spacing" >REACT NATIVE</text><rect x="700.08" y="628" width="89.92" height="34" fill="none" stroke="rgba(20,20,20,0.15)"/><text x="745.0400000000001" y="650" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="59" lengthAdjust="spacing" >DOCKER</text>
+</g>
+
+<rect width="1200" height="700" filter="url(#grain)" opacity="0.06"/>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img">
+<defs><filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix type="saturate" values="0"/>
+</filter><style>
+text { font-family: 'Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+.idx { font-size: 15px; letter-spacing: 4.5px; fill: #666666; text-transform: uppercase; }
+/* No entrance animations: GitHub's mobile app, link previews and some
+   renderers show only the first frame of an SVG, so every element must be
+   fully drawn at t=0. The only motion is the availability dot, which is
+   visible at every point of its cycle. */
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style></defs>
+<rect width="1200" height="430" fill="#F6F5F4"/>
+<line x1="56" y1="40" x2="1144" y2="40" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="84" font-size="13" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.6" >01</text>
+<text x="126" y="86" font-size="26" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-0.5" >BACKEND</text>
+<rect x="386" y="60" width="89.92" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.00s"/>
+<text x="430.96" y="82" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="59" lengthAdjust="spacing" >PYTHON</text>
+<rect x="485.92" y="60" width="100.24000000000001" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.00s"/>
+<text x="536.04" y="82" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="69" lengthAdjust="spacing" >FASTAPI</text>
+<rect x="596.1600000000001" y="60" width="89.92" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.00s"/>
+<text x="641.1200000000001" y="82" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="59" lengthAdjust="spacing" >DJANGO</text>
+<rect x="696.08" y="60" width="89.92" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.00s"/>
+<text x="741.0400000000001" y="82" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="59" lengthAdjust="spacing" >CELERY</text>
+<rect x="796.0" y="60" width="100.24000000000001" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.00s"/>
+<text x="846.12" y="82" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="69" lengthAdjust="spacing" >NODE.JS</text>
+<line x1="56" y1="114" x2="1144" y2="114" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="158" font-size="13" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.6" >02</text>
+<text x="126" y="160" font-size="26" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-0.5" >AI / ML</text>
+<rect x="386" y="134" width="120.88" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.05s"/>
+<text x="446.44" y="156" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="90" lengthAdjust="spacing" >LANGCHAIN</text>
+<rect x="516.88" y="134" width="120.88" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.05s"/>
+<text x="577.3199999999999" y="156" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="90" lengthAdjust="spacing" >LANGGRAPH</text>
+<rect x="647.76" y="134" width="58.96" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.05s"/>
+<text x="677.24" y="156" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="28" lengthAdjust="spacing" >RAG</text>
+<rect x="716.72" y="134" width="141.52" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.05s"/>
+<text x="787.48" y="156" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="111" lengthAdjust="spacing" >MULTI-AGENT</text>
+<rect x="868.24" y="134" width="141.52" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.05s"/>
+<text x="939.0" y="156" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="111" lengthAdjust="spacing" >AWS BEDROCK</text>
+<line x1="56" y1="188" x2="1144" y2="188" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="232" font-size="13" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.6" >03</text>
+<text x="126" y="234" font-size="26" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-0.5" >DATA</text>
+<rect x="386" y="208" width="131.2" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.10s"/>
+<text x="451.6" y="230" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="100" lengthAdjust="spacing" >POSTGRESQL</text>
+<rect x="527.2" y="208" width="79.6" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.10s"/>
+<text x="567.0" y="230" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="49" lengthAdjust="spacing" >REDIS</text>
+<rect x="616.8000000000001" y="208" width="100.24000000000001" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.10s"/>
+<text x="666.9200000000001" y="230" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="69" lengthAdjust="spacing" >MONGODB</text>
+<rect x="727.0400000000001" y="208" width="110.56" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.10s"/>
+<text x="782.32" y="230" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="80" lengthAdjust="spacing" >PINECONE</text>
+<line x1="56" y1="262" x2="1144" y2="262" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="306" font-size="13" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.6" >04</text>
+<text x="126" y="308" font-size="26" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-0.5" >FRONTEND</text>
+<rect x="386" y="282" width="79.6" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.15s"/>
+<text x="425.8" y="304" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="49" lengthAdjust="spacing" >REACT</text>
+<rect x="475.6" y="282" width="131.2" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.15s"/>
+<text x="541.2" y="304" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="100" lengthAdjust="spacing" >TYPESCRIPT</text>
+<rect x="616.8" y="282" width="151.84" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.15s"/>
+<text x="692.7199999999999" y="304" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="121" lengthAdjust="spacing" >REACT NATIVE</text>
+<line x1="56" y1="336" x2="1144" y2="336" stroke="rgba(20,20,20,0.15)"/>
+<text x="56" y="380" font-size="13" font-weight="400" fill="#666666" text-anchor="start" letter-spacing="2.6" >05</text>
+<text x="126" y="382" font-size="26" font-weight="900" fill="#141414" text-anchor="start" letter-spacing="-0.5" >PLATFORM</text>
+<rect x="386" y="356" width="89.92" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.20s"/>
+<text x="430.96" y="378" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="59" lengthAdjust="spacing" >DOCKER</text>
+<rect x="485.92" y="356" width="58.96" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.20s"/>
+<text x="515.4" y="378" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="28" lengthAdjust="spacing" >AWS</text>
+<rect x="554.88" y="356" width="79.6" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.20s"/>
+<text x="594.68" y="378" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="49" lengthAdjust="spacing" >CI/CD</text>
+<rect x="644.48" y="356" width="58.96" height="34" fill="none" stroke="rgba(20,20,20,0.15)" class="fade" style="animation-delay:0.20s"/>
+<text x="673.96" y="378" font-size="12" font-weight="400" fill="#141414" text-anchor="middle" letter-spacing="2.4" textLength="28" lengthAdjust="spacing" >N8N</text>
+<line x1="56" y1="410" x2="1144" y2="410" stroke="rgba(20,20,20,0.15)"/>
+<rect width="1200" height="430" filter="url(#grain)" opacity="0.06"/>
+</svg>
